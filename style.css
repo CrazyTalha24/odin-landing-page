@@ -19,7 +19,7 @@ body {
 /*--------------------------------------------------*/
 
 section {
-    padding: 100px;
+    padding: 75px 100px;
 }
 
 header, footer {
@@ -89,6 +89,10 @@ li {
     align-items: center;
 }
 
+.hero-text p {
+    line-height: 25px;
+}
+
 .hero-text a {
     background-color: #3882f6;
     padding: 5px 20px;
@@ -108,7 +112,6 @@ li {
 /*---------- FEATURES ----------*/
 
 .features {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,17 +125,32 @@ li {
 
 .steps {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: stretch;
 }
 
 .single-step {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
     width: 25%;
     border: #3882f6 solid 1px;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.09);
 }
+
+#xbox {
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+/*--- TRY ---*/
+
+
+
+/*--- TRY ---*/
+
 
 .single-step img {
     width: 100%;
@@ -179,7 +197,6 @@ blockquote::after {
 
 cite {
     font-size: 20px;
-    margin-top: 25px;
     display: block;
     margin-left: 875px;
 }
@@ -189,4 +206,38 @@ cite img {
     border-radius: 50%;
     vertical-align: middle;
     margin-right: 15px;
+}
+
+
+/*---------- TESTIMONIAL ----------*/
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 100px;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.offer a {
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-style: inherit;
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer p {
+    color: #f9faf8;
 }
